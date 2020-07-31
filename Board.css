@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    background-color: #dedede;
+    font-family: 'Muli';
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.contenedor_circulo{
+    border-radius: 50%;
+    background-color: black;
+    height: 50vh;
+    width: 50vh;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor_circulo-seccion{
+    width: 50%;
+    height: 50%;
+}
+.azul{
+    background-color: cornflowerblue;
+}
+
+.verde{
+    background-color: #24e655;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.naranja{
+    background-color: rgb(240, 152, 75);
+}
+
+.contenedor_boton{
+    height: 10%;
+    border-radius: 10px;
+    width: 20%;
+    position: absolute;
+    outline: none;
+    font-family: 'Muli';
+    font-size: 15px;
+    background-color: #dedede;
+    border: none;
+}
+
+.contenedor_boton:hover{
+    transition: 500ms;
+    background-color: #666565;
+    color: #dedede;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.azul.iluminar{
+    background-color: rgb(146, 181, 247);
+}
+
+.verde.iluminar{
+    background-color: #64e283;
+}
+
+.rojo.iluminar{
+    background-color: rgb(247, 130, 130);
+}
+
+.naranja.iluminar{
+    background-color: rgb(236, 169, 111);
+}
+
+.apuntador{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 411px){
+    .contenedor_boton{
+        width: 40%;
+    }
+    .contenedor_circulo{
+        height: 391px;
+        width: 391px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .contenedor_boton{
+        width: 40%;
+    }
+    .contenedor_circulo{
+        height: 345px;
+        width: 345px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .contenedor_boton{
+        width: 40%;
+    }
+    .contenedor_circulo{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .contenedor_boton{
+        width: 40%;
+    }
+    .contenedor_circulo{
+        height: 310px;
+        width: 310px;
+    }
+}
